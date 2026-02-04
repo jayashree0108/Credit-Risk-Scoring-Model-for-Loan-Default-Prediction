@@ -1,2 +1,25 @@
-# Credit-Risk-Scoring-Model-for-Loan-Default-Prediction
-Reduced loan default misclassification by 20% using ML classification models. Deployed a real-time scoring API with MLflow and Flask for seamless integration. Improved model reliability through hyperparameter tuning and feature selection.
+# 💳 Credit Risk Scoring Model for Loan Default Prediction
+
+Machine Learning system to predict loan default risk and deploy real-time scoring API.
+
+## 🚀 Highlights
+- Reduced loan default misclassification by 20%
+- MLflow experiment tracking
+- Feature selection & hyperparameter tuning
+- Flask API for real-time risk scoring
+
+## 📊 Features Used
+- Credit score
+- Loan amount
+- Debt-to-income ratio
+- Employment years
+- Previous defaults
+- Income & age factors
+
+## 🧠 Model
+XGBoost classifier optimized using GridSearchCV and SelectKBest.
+
+## 📈 MLflow Tracking
+Track experiments:
+```bash
+mlflow ui
